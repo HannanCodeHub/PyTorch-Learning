@@ -46,4 +46,4 @@ loss = ((y_pred - y) ** 2).mean()
 print("Predicted Values:", y_pred) # 0 , 0 , 0
 print("Actual Values:",y) # 15,25,30
 
-print("loss:" , loss) # 
+print("loss:" , loss) 
