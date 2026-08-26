@@ -47,9 +47,6 @@ w.grad.zero_()
 print("After Update:")
 print("w:", w.item())
 
-
-
-print("WORKINGGGGGGGGGGGGGGGGGG")
 #training loop:
 x = torch.tensor([1. ,2. , 3. , 4. ])
 y_true = torch.tensor([2. , 4. ,6. , 8.])
@@ -72,5 +69,6 @@ for epoch in range(epochs):
 
     with torch.no_grad():
         w-= lr * w.grad
+
 
     print(f"Epoch {epoch+1}: w = {w.item():.4f}, loss = {loss.item():.4f}")
