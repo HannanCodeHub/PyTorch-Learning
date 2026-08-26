@@ -74,5 +74,3 @@ for epoch in range(epochs):
         w-= lr * w.grad
 
     print(f"Epoch {epoch+1}: w = {w.item():.4f}, loss = {loss.item():.4f}")
-
-

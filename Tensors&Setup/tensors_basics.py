@@ -7,8 +7,8 @@ y = torch.tensor([ #2d tensor
     [3,4],
     [5,6]
 ])
-print(y)
 print(y.shape) #rows and cols batayega.
+print(y)
 
 o= torch.ones(3,2) #fill matrix with 1
 print(o)
@@ -18,8 +18,6 @@ print(z)
 
 r = torch.rand(2,3) #fill matrix with random values
 print(r)
-
-
 
 i = torch.tensor([1,2,4])
 print(i[1])
